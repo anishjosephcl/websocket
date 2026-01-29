@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package message;
+
+option go_package = "openmedia/datastoreapp/protobuf";
+
+service MessageService {
+    rpc StoreMessage(StoreMessageRequest) returns (StoreMessageResponse);
+    rpc RetrieveMessages(RetrieveMessagesRequest) returns (RetrieveMessagesResponse);
+}
+
+message StoreMessageRequest {
+    string message = 1;
+}
+
+message StoreMessageResponse {
+    bool success = 1;
+    string id = 2;
+}
+
+message RetrieveMessagesRequest {
+    string id = 1;
+}
+
+message RetrieveMessagesResponse {
+    repeated string messages = 1;
+}
