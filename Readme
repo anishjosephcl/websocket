@@ -1,0 +1,7 @@
+This repo consists of 4 components
+
+common- Common pacakge used by all applications
+datsastoreapp - grpc apis implementation for storing and fetching messages
+httpapp - Rest implementation  for storing messages and about files 
+clientapp - websocket client connection 
+

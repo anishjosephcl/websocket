@@ -1,0 +1,51 @@
+A Context carries deadlines, 
+cancellation signals, and other request-scoped values across API boundaries and goroutines.
+
+ While working, keep an eye on the context’s Done() channel for a signal that we should cancel the work and return as soon as possible.
+
+ defers will not be run when using os.Exit
+
+  A handler is an object implementing the http.Handler interface. 
+
+  There is interface assignment. Any value can be assigned to an interface.
+
+  
+SHA256 hashes are frequently used to compute short identities for binary or text blobs
+
+The built-in package strconv provides the number parsing
+
+Within the time pkg it is possible to get the seconds and nano seconds elapsed 
+
+Go it is idiomatic to use error-indicating return values wherever possible
+
+var a [5]int
+
+make(map[key-type]val-type)
+
+If you already have multiple args in a slice, apply them to a variadic function using func(slice...) like this. sum(nums...)
+
+Function closures in Go are functions that "close over" (capture) variables from their surrounding scope, maintaining access to those variables even after the outer function finishes executing. This enables stateful behavior without global variables or classes
+
+Runes, however, always use a fixed 4 bytes as int32 values when stored in a []rune slice.
+
+Interfaces are named collections of method signatures.
+
+Without select, you'd block forever on <-ctx.TimeoutChan. select + default gives you interruptible polling.
+
+WaitGroups track the completion of a fixed number of goroutines using Add(), Done(), and Wait(), without passing data between them. Channels, by contrast, enable safe data communication and synchronization between goroutines via sending and receiving values
+
+sqlx.Connect(pgEnv.Driver, pgEnv.GetConnectionStr(dbName))  Sets the connections in the pool
+
+Make and new - The reason for the distinction is that these three types represent, under the covers, references to data structures that must be initialized before use.
+
+MAXRPROCS - It defaults to the value of runtime.NumCPU
+
+// A select statement with no cases blocks indefinitely.
+
+Table driven tests for example 
+
+copy and append  
+
+inclusive and exclusive in array
+
+var scope - when to use 
