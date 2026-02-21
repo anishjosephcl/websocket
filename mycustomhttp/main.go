@@ -5,7 +5,7 @@ package main
 import (
 	"fmt"
 	"log"
-	"mycustomhttp/myhttp"
+	"messagefeedapp/mycustomhttp/myhttp"
 	"time"
 	// Import our completely custom myhttp package
 )

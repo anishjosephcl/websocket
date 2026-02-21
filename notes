@@ -49,3 +49,5 @@ copy and append
 inclusive and exclusive in array
 
 var scope - when to use 
+
+When you need to work with individual characters in a string, you almost always want to be working with runes, not bytes. A rune guarantees you are handling a complete character.
